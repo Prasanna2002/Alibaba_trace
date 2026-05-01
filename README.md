@@ -23,10 +23,10 @@ To address the natural class imbalance in cluster data, the model was trained us
 
 | Metric | Score |
 | :--- | :--- |
-| **Model Accuracy** | 59.7% |
+| **Model Accuracy** | 58.18% |
 | **Recall (High Request Nodes)** | **0.41** |
-| **Precision (High Request Nodes)** | 0.19 |
-| **F1-Score (Normal Nodes)** | 0.72 |
+| **Precision (High Request Nodes)** | 0.26 |
+| **F1-Score (Normal Nodes)** | 0.70 |
 
 ### Feature Importance (Weights)
 The model coefficients reveal the primary drivers of node traffic:
