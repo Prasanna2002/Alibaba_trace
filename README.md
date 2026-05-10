@@ -32,7 +32,7 @@ Later On Went ahead with different implemtation strategy as the values in the co
 
 | Metric | Score |
 | :--- | :--- |
-| **Model Accuracy** | 58.18% |
+| **Model Accuracy** | 99% |
 | **Recall (High Request Nodes)** | **0.98** |
 | **Precision (High Request Nodes)** | **0.98** |
 | **F1-Score (Normal Nodes)** | **0.98** |
