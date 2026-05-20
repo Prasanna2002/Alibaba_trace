@@ -28,10 +28,19 @@ To address the natural class imbalance in cluster data, the model was trained us
 | **Precision (High Request Nodes)** | 0.26 |
 | **F1-Score (Normal Nodes)** | 0.70 |
 
+Later On Went ahead with different implemtation strategy as the values in the columns were descrete, so for this Decision Tree was selected and instead of all the columns we used the top 5 important columns ,whose importance was extracted from the feature importance result of Logistic Regression.
+
+| Metric | Score |
+| :--- | :--- |
+| **Model Accuracy** | 99% |
+| **Recall (High Request Nodes)** | **0.98** |
+| **Precision (High Request Nodes)** | **0.98** |
+| **F1-Score (Normal Nodes)** | **0.98** |
+
 ### Feature Importance (Weights)
 The model coefficients reveal the primary drivers of node traffic:
-*   **Upstream Microservice (`um`):** **0.136** (Strongest predictor; traffic is driven by the caller's identity).
-*   **Downstream Microservice (`dm`):** **0.061** (The receiving service has a secondary influence).
+*   **Upstream Microservice InstanceID(`uminstanceid`):** **0.587** (Strongest predictor; traffic is driven by the caller's identity).
+*   **Upstream Microservice (`um`):** **0.61** (The Upstream service has a secondary influence).
 
 ## 📂 Repository Structure
 ```text
