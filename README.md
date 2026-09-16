@@ -30,12 +30,6 @@ To address the natural class imbalance in cluster data, the model was trained us
 
 Later On Went ahead with different implemtation strategy as the values in the columns were descrete, so for this Decision Tree was selected and instead of all the columns we used the top 5 important columns ,whose importance was extracted from the feature importance result of Logistic Regression.
 
-| Metric | Score |
-| :--- | :--- |
-| **Model Accuracy** | 99% |
-| **Recall (High Request Nodes)** | **0.98** |
-| **Precision (High Request Nodes)** | **0.98** |
-| **F1-Score (Normal Nodes)** | **0.98** |
 
 ### Feature Importance (Weights)
 The model coefficients reveal the primary drivers of node traffic:
